@@ -4,6 +4,7 @@ import urllib.error
 from bs4 import BeautifulSoup
 import ssl
 
+
 # Ignore SSL certificate errors
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
